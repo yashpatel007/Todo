@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    username: root
+    url: jdbc:mysql://<db:ip>:3306/todoDB
+    driverClassName: com.mysql.jdbc.Driver
+    password: 'yourpassword'
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: '8080'
